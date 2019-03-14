@@ -2,11 +2,11 @@ language: java
 script:
   - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TirePressureMonitoringSystem
   - mvn test -B
-  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TextConverter/
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TextConverter
   - mvn test -B
-  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TurnTickerDispenser/
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TurnTickerDispenser
   - mvn test -B 
-  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TelemetrySystem/
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TelemetrySystem
   - mvn test -B 
-  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/Leaderboard/
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/Leaderboard
   - mvn test -B 
