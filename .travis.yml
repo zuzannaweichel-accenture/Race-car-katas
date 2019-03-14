@@ -1,6 +1,6 @@
 language: java
 script:
-  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TirePressureMonitoringSystem/
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TirePressureMonitoringSystem
   - mvn test -B
   - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TextConverter/
   - mvn test -B
