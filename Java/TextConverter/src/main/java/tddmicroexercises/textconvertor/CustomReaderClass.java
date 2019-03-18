@@ -17,4 +17,10 @@ public class CustomReaderClass {
     public String readLine() throws IOException {
         return buffer.readLine();
     }
+    public void close() throws IOException {
+        buffer.close();
+    }
+    public long skip(long number) throws IOException {
+        return buffer.skip(number);
+    }
 }
