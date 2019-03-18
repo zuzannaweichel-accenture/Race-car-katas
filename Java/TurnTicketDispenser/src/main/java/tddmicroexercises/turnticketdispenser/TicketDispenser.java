@@ -9,4 +9,7 @@ public class TicketDispenser
 
         return newTurnTicket;
     }
+    public void resetDispenser(){
+        TurnNumberSequence.resetTurnCount();
+    }
 }

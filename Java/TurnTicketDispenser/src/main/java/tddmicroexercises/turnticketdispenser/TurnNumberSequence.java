@@ -8,4 +8,7 @@ public class TurnNumberSequence
     {
         return _turnNumber++;
     }
+    public static void resetTurnCount(){
+        _turnNumber = 0;
+    }
 }
