@@ -6,7 +6,7 @@ script:
   - mvn test -B
   - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TurnTicketDispenser
   - mvn test -B 
-  # - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TelemetrySystem
-  # - mvn test -B 
+  - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/TelemetrySystem
+  - mvn test -B 
   # - cd /home/travis/build/zuzannaweichel-accenture/Race-car-katas/Java/Leaderboard
   # - mvn test -B 
