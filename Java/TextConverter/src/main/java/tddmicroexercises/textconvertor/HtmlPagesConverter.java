@@ -43,22 +43,7 @@ public class HtmlPagesConverter {
 
     public String getHtmlPage(int page) throws IOException {
         CustomReaderClass reader = new CustomReaderClass(filename);
-        reader.skip(breaks.get(page));
-        StringBuffer htmlPage = new StringBuffer();
-        String line = reader.readLine();
-        System.out.println(line);
-        while (line != null)
-        {
-            if (line.contains("PAGE_BREAK")) {
-                break;
-            }
-            htmlPage.append(StringEscapeUtils.escapeHtml(line));
-            htmlPage.append("<br />");
-
-            line = reader.readLine();
-        }
-        reader.close();
-        return htmlPage.toString();
+        return getHtmlPage(page, reader);
     }
 
     public String getHtmlPage(int page, CustomReaderClass reader) throws IOException {
